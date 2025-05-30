@@ -26,17 +26,18 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LUCIA-PEREZ-PC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7eQuKAmoGkSvyVgjzrd+iwAAAAACAAAAAAAQZgAAAAEAACAAAABQJtbNGcOUi6TGXzqZ+r820DtZMEERJEbmSgRoADUq8wAAAAAOgAAAAAIAACAAAAC8a6g9rI/RND/XudtLXxtJMgH2GeZYt5X/Onho/VWlqpAAAAC+D15ugZhGanuDDMCUKzrnfRw0MXbMMqLrlv0BV/UdoFyEV6ULPh6NsOtq2VVJ2vNC3mpaNzx2dMq8lOLqLloiKS09IJRMxGIU3NCdo6e0MSYv7bg+jwumDNgOkp2sKbUW5mBytvgPIwdFZW+MwdEYyLmvmQoHvd+k+4BjgofiNPqkl+vXq9c1gZrdyrLbD9dAAAAAtJu+GuzTvgwNxzG8GEggqcbVZ6hCN5JljIsN4NXt4Ssvf6depdt5Oawv8My98SXiWpuEINixMMHzzxwbYLW5iQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7eQuKAmoGkSvyVgjzrd+iwAAAAACAAAAAAAQZgAAAAEAACAAAACTTtHgGDnX41IjYPZ0GCQoIt3ecaanQYqwIi0kIz/AuwAAAAAOgAAAAAIAACAAAABDnyABO6N0g3upfo7rS1A6qAwMmI+Zoni39fHJnbmFjZAAAADyMuAad2BAN6Jnyhh9KEzgwnZSh8qnXCHByQUuOvz2+dOsc1H85ftU2Duc3lhJeKl1/3gFAfzEYqPLKZOvgGNwRbUVzXwQBj2wRKIKKngcNBcTcJKYD/4eQ4BZPZrHkfTwmFdDI9D0BFS26zCbeAB18vQg3vTNopob647TMAox06tgndmzGnOaNp1OghUQyyFAAAAAv+JY9fYq8i5tSzFENdXxPLQBUCh3ufvs52MDTJ7w0g7knPUZrXM98Xmv7Hfm36MmQW0wC6rLJZ7R1TviajyB5Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="CARGA ODS.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="CARGA DW.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers />
         <SSIS:DeploymentInfo>
           <SSIS:ProjectConnectionParameters />
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="CARGA ODS.dtsx">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">{C1D9DB79-1AEB-4428-9F17-C5447282E0E0}</SSIS:Property>
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
@@ -46,6 +47,23 @@
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionGUID">{6233D359-5E85-4174-956A-45C779904E5B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
+                <SSIS:Property SSIS:Name="Description">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+              </SSIS:Properties>
+              <SSIS:Parameters />
+            </SSIS:PackageMetaData>
+            <SSIS:PackageMetaData SSIS:Name="CARGA DW.dtsx">
+              <SSIS:Properties>
+                <SSIS:Property SSIS:Name="ID">{42FE3D21-3C73-4A04-B88C-65241286C841}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">Package1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionComments">
+                </SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{D46A1C4A-851F-43D9-A497-3400173AA2A9}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
